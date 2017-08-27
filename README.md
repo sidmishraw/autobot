@@ -39,8 +39,8 @@ Caveats:
 
 • It cannot get the exact author names, but I’ve made it to extract and group together the author name area string together and it is named “authorString”.
 
-``
-{`
+```javascript
+{
   "title": "Incompleteness Errors in Ontology",
   "authorString": [
     "1 Muhammad Abdul Qadir, 2Muhammad Fahad, 3Syed Adnan Hussain Shah Muhammad Ali Jinnah University, Islamabad, Pakistan",
@@ -49,10 +49,12 @@ Caveats:
   "content": "Abstract\nOntology ev…”
 }
 ```
+
 As you can see from the example, if there are numbered bullets in-front of the name’s etc, it is still difficult to remove them.
 
 Some, PDF documents turn out good:
-```
+
+```javascript
 {
   "title": "Privacy Preserving Collaborative Filtering using Data Obfuscation",
   "authorString": [
