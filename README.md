@@ -39,14 +39,14 @@ Caveats:
 
 • It cannot get the exact author names, but I’ve made it to extract and group together the author name area string together and it is named “authorString”.
 
-```javascript
+```JSON
 {
   "title": "Incompleteness Errors in Ontology",
   "authorString": [
     "1 Muhammad Abdul Qadir, 2Muhammad Fahad, 3Syed Adnan Hussain Shah Muhammad Ali Jinnah University, Islamabad, Pakistan",
     "1aqadir@jinnah.edu.pk, 2mhd.fahad@gmail.com, 3syedadnan@gmail.com"
   ],
-  "content": "Abstract\nOntology ev…”
+  "content": "Abstract\nOntology ev…"
 }
 ```
 
@@ -54,7 +54,7 @@ As you can see from the example, if there are numbered bullets in-front of the n
 
 Some, PDF documents turn out good:
 
-```javascript
+```JSON
 {
   "title": "Privacy Preserving Collaborative Filtering using Data Obfuscation",
   "authorString": [
@@ -65,6 +65,6 @@ Some, PDF documents turn out good:
     "School of Electrical and Computer Engineering Atlanta, GA",
     "doug.blough@ece.gatech.edu"
   ],
-  "content": "Abstract\n…”
+  "content": "Abstract\n…"
 }
 ```
