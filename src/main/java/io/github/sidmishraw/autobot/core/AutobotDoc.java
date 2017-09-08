@@ -6,7 +6,7 @@ package io.github.sidmishraw.autobot.core;
 import java.io.Serializable;
 
 /**
- * @author pradipta.mishra
+ * @author sidmishraw
  *
  */
 public class AutobotDoc implements Serializable {
